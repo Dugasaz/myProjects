@@ -4,18 +4,18 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>helloworld</artifactId>
+	<artifactId>muleapp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
-	<name>helloworld</name>
+	<name>muleapp</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.2.2-hf2</app.runtime>
-		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.3.4</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -44,12 +44,6 @@
             <version>1.1.5</version>
             <classifier>mule-plugin</classifier>
         </dependency>
-            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
-<dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-deploy-plugin</artifactId>
-    <version>2.8.2</version>
-</dependency>
 	</dependencies>
 
 	<repositories>
@@ -77,4 +71,5 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+
 </project>
